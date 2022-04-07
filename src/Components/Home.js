@@ -1,10 +1,19 @@
 import React from "react";
-import { Navigation } from "../Navigation/Navigation";
-import "../Navigation/Navigation.css"
+import "../Components/Home.css"
+import { AddChild } from "./AddChild";
+
 
 export const HomePage = () => {
+
+
+
     return (
-        <div>
+        <div className="homeContainer">
+            <div className="homeContents">
+                <div className="homeTitle">Welcome, {localStorage.getItem("email")} </div>
+                <AddChild/>
+
+            </div>
         </div>
     )
 }
