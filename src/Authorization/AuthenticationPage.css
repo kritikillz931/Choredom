@@ -1,0 +1,38 @@
+.googleLoginButton {
+    background-color: rgb(142, 202, 230);
+}
+
+.googleLogo {
+    width: 35px;
+}
+
+.loginTitle {
+    color: #fff;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    max-width:fit-content;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.registerUserLink {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.registerUserLink :hover {
+    color: blue;
+}
+
+.forgotPasswordLink {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.forgotPasswordLink:hover {
+color: blue;
+}
