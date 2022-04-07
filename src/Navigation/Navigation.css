@@ -9,6 +9,8 @@ body {
 }
 
 .sidebar {
+    position: absolute;
+    z-index: 999;
     height: 937px;
     width: 250px;
     background-color: rgb(1, 23, 34);

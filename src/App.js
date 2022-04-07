@@ -17,10 +17,10 @@ function App() {
   if (localStorage.getItem("accessToken")) {
     return (
       <>
+      <Navigation/>
       <Routes>
         <Route exact path="/Home" element={<HomePage />} />
       </Routes>
-      <Navigation/>
       </>
     )
   } else {
